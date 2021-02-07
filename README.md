@@ -1,4 +1,4 @@
-# ServiceandMe
+# MentUp
 ## Naming Convention
 
 Types and Interfaces should follow Pascal case naming convention while other variables should follow camel case naming convention

@@ -43,7 +43,8 @@ const HomeBody = () => {
                             <div className="left__side">
                                 <div className="left__side__container">
                                     <h2 className="perfect__place animate--perfect">
-                                        Hi there, {/* <span className="ServiceandMe">ServiceandMe</span> */} </h2>
+                                        Hi there,
+                                    </h2>
                                     <h2 className="perfect__place animate--perfect">
                                         This is MentUp
                                     </h2>
@@ -52,13 +53,13 @@ const HomeBody = () => {
                                     </h4>
 
                                     <div className="left__side__button__container">
-                                        <Link to="/auth/register/" className="left__side__button">
+                                        <Link to="/" className="left__side__button">
                                             <i className="fas fa-apple-alt"></i>
                                             App Store
                                         </Link>
                                     </div>
                                     <div className="left__side__button__container">
-                                        <Link to="/auth/register/" className="left__side__button2">
+                                        <Link to="/" className="left__side__button2">
                                             <i className="fab fa-google-play"></i>
                                             Play Store
                                         </Link>
