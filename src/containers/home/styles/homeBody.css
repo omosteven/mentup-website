@@ -5,14 +5,19 @@
 
 .bodyContainer {
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(136, 67, 83);
     height: fit-content;
-    /* font-family: sans-serif; */
 }
 
 .first__layer {
     display: flex;
-    height: 90vh;
+    background-color: rgb(136, 67, 83);
+    height: 60vh;
+}
+
+.curve__shape__design {
+    /* fill: rgb(136, 67, 83); */
+    /* height: 2em; */
+    /* background-color: rgb(136, 67, 83); */
 }
 
 .curve__shape {
@@ -267,7 +272,7 @@
 
 .__layer {
     z-index: -1;
-    margin-top: 7em;
+    margin-top: -5em;
     background-color: white;
     margin-bottom: -1em;
     /* border-top: 1px solid rgba(0, 68, 140, 0.1); */
