@@ -10,14 +10,12 @@
 
 .first__layer {
     display: flex;
-    background-color: rgb(136, 67, 83);
+    /* background-color: rgb(136, 67, 83); */
     height: 60vh;
 }
 
 .curve__shape__design {
-    /* fill: rgb(136, 67, 83); */
-    /* height: 2em; */
-    /* background-color: rgb(136, 67, 83); */
+    fill: rgba(247, 152, 86, 0.5)
 }
 
 .curve__shape {
@@ -50,7 +48,7 @@
 .perfect__place {
     font-weight: bold;
     /* font-size: 2.5em; */
-    color: white;
+    color: rgb(136, 67, 83);
     line-height: 1.5em;
 }
 
@@ -58,7 +56,7 @@
     line-height: 28px;
     font-size: 1.1em;
     margin-top: 1em;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(147, 97, 99);
 }
 
 .left__side__button__container {
@@ -153,7 +151,8 @@
     -moz-transition: background-position 0.8s;
     -ms-transition: background-position 0.8s;
     -o-transition: background-position 0.8s;
-    background-position: 100% 90%;
+    /* background-position: 100% 90%; */
+    background-position: 50% 50%;
     background-size: 50%;
     background-image: url("../images/Group 3.svg");
     animation-name: zoomImage;
@@ -206,9 +205,13 @@
     .first__layer {
         display: flex;
         height: fit-content;
+        background-color: white;
+    }
+    .curve__shape__design {
+        display: none;
     }
     .perfect__place {
-        color: rgb(5, 5, 5);
+        color: rgb(136, 67, 83);
         width: 100%;
         font-weight: bold;
         /* color: white; */
@@ -274,7 +277,8 @@
     z-index: -1;
     margin-top: -5em;
     background-color: white;
-    margin-bottom: -1em;
+    margin-bottom: 10em;
+    height: fit-content;
     /* border-top: 1px solid rgba(0, 68, 140, 0.1); */
     font-family: 'Times New Roman', Times, serif;
 }
@@ -286,27 +290,26 @@
 .second__layer__title {
     text-align: center;
     color: rgb(249, 107, 5);
-    color: rgba(5, 5, 5, 1);
     text-shadow: 0px 4px 4px rgba(5, 5, 5, 0.1);
     text-align: center;
     font-weight: 700;
     /* font-weight: bold; */
-    font-size: 2em;
-    margin-top: 2em;
-    margin-bottom: 0.5em;
+    /* font-size: 2em; */
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 .second__layer__title2 {
-    margin-top: 1em;
+    margin-top: 2em;
     text-align: center;
     width: 40%;
     margin-left: 30%;
-    color: rgba(5, 5, 5, 0.9);
+    color: rgb(147, 97, 99);
     margin-bottom: 1em;
 }
 
 .second__layer__desc__head {
-    color: rgba(5, 5, 5, 1);
+    color: rgb(136, 67, 83);
     margin-bottom: 1em;
     font-family: "Nunito", sans-serif;
     font-weight: bold;
@@ -316,11 +319,11 @@
     /* margin-left: 1em; */
     margin-bottom: 1em;
     font-size: 0.9em;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 .second__layer__description {
-    color: rgba(5, 5, 5, 0.9);
+    color: rgb(147, 97, 99);
     width: 90%;
     margin-left: 5%;
     display: flex;
@@ -371,10 +374,8 @@
     .second__layer__title {
         font-weight: 700;
         font-size: 1.3em;
+        margin-top: 7em;
         /* margin-bottom: 3em; */
-    }
-    .second__layer__description {
-        color: rgba(5, 5, 5, 0.7);
     }
     .second__layer__desc__img {
         width: 90%;
