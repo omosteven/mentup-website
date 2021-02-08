@@ -37,6 +37,7 @@
     /* font-size: 2.5em; */
     color: rgb(136, 67, 83);
     line-height: 1.5em;
+    /* font-size: 1.7em; */
 }
 
 .service__describe_page {
@@ -201,11 +202,13 @@
         /* color: white; */
         /* font-size: 2.2em; */
         margin-top: 0em;
+        font-size: 1.7em;
     }
     .service__describe_page {
         width: 100%;
         text-align: justify;
-        line-height: 1.5em;
+        line-height: 1.3em;
+        font-size: 1em;
     }
     .MentUp {
         color: rgb(249, 107, 5);
@@ -296,6 +299,7 @@
     margin-bottom: 1em;
     font-family: "Nunito", sans-serif;
     font-weight: bold;
+    text-justify: newspaper;
 }
 
 .second__layer__desc__inner {
@@ -353,6 +357,7 @@
         width: 80%;
         margin-left: 10%;
         margin-bottom: 2em;
+        font-size: 0.9em;
     }
     .second__layer__title {
         font-weight: 700;

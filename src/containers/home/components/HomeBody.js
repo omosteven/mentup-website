@@ -25,10 +25,8 @@ import contacUsImage from "../images/Group 183.svg";
 const HomeBody = () => {
     AOS.init();
 
-
     return (
-        <> 
-        {/* <Ripple color={"rgb(0, 68, 72)"}
+        <> {/* <Ripple color={"rgb(0, 68, 72)"}
                 background="white"
                 time={3000}
                 customLoading={false}/> */}
