@@ -1,26 +1,3 @@
-/* 
-
-Date : 11th of Sept 2020
-
-Naming Convention : Pascal for Constructors & Functions while Camel for other tokens
-
-Description : This file is for the header of the home page
-
-Files Attached To : /home/base/
-
-File Type : React
-
-Written By : Steven Omole-Adebomi
-
-Follow me on
-
-LinkedIn : https://linkedin.com/in/steven-omole
-
-Github : https://github.com/omosteven
-
-Twitter : @OmoleSteven
-
-*/
 
 import React, {useState} from "react";
 
@@ -33,6 +10,8 @@ import "../styles/homeHeader.css";
 import "../../../packages/css/demo.css";
 
 import "../../../packages/css/component.css";
+
+import mentUPLogo from "../images/MentUPLogo.svg";
 
 const HomeHeader = () => {
     const [nav__class, setNav__class] = useState(true);
@@ -85,7 +64,7 @@ const HomeHeader = () => {
                         <div className="hd__col">
                             <div className="logo">
                                 <span className="logo1">
-                                    <img src="https" alt="MentUp"
+                                    <img src={mentUPLogo} alt="MentUP"
                                         className={logoColor}
                                         id="MentUp"/>
                                 </span>
@@ -138,7 +117,7 @@ const HomeHeader = () => {
                         </div>
 
                         <span className="logo__mobile">
-                            <img src="" alt="MentUp" className="logo__MentUp__mobile" id="logo-darkbank-mobile"/>
+                            <img src={mentUPLogo} alt="MentUP" className="logo__MentUp__mobile" id="logo-darkbank-mobile"/>
                         </span>
 
                         <div className="menu__icon">

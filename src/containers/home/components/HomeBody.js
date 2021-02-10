@@ -45,7 +45,7 @@ const HomeBody = () => {
                                         Hi there,
                                     </h2>
                                     <h2 className="perfect__place animate--perfect">
-                                        This is MentUp
+                                        This is MentUP
                                     </h2>
                                     <h4 className="service__describe_page">
                                         A safe place to share your mental health challenges without fear of insecurities, privacy & freedom infrigment but the aim to get counselling and supports anonymously.
@@ -102,7 +102,7 @@ const HomeBody = () => {
                     <section className="__layer" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine">
                         {/* <hr className="layer__rule" /> */}
                         <div className="second__layer__container">
-                            <h4 className="second__layer__title">About MentUp</h4>
+                            <h4 className="second__layer__title">About MentUP</h4>
                             <h6 className="second__layer__title2">
                                 Voice Out The Expression is an initiative that advances discussions on mental health and advocates for safe spaces among the youth population in Nigeria. As a means to advance mental health in Nigeria, we developed MentUP.
                             </h6>
