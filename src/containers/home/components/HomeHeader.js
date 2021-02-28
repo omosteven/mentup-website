@@ -117,7 +117,7 @@ const HomeHeader = () => {
                         </div>
 
                         <span className="logo__mobile">
-                            <img src={mentUPLogo} alt="MentUP" className="logo__MentUp__mobile" id="logo-darkbank-mobile"/>
+                            <img src={mentUPLogo} alt="MentUP" className="logo__MentUp__mobile"/>
                         </span>
 
                         <div className="menu__icon">

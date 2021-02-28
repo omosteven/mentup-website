@@ -3,7 +3,9 @@
     height: 15em;
     width: 100%;
     position: absolute;
-    margin-top: 5em
+    margin-top: 5em;
+    letter-spacing: -0.025em;
+    font-family: 'Apercu, sans-serif';
     /* bottom: 0; */
 }
 

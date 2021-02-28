@@ -42,13 +42,16 @@ const HomeBody = () => {
                             <div className="left__side">
                                 <div className="left__side__container">
                                     <h2 className="perfect__place animate--perfect">
-                                        Hi there,
+                                        Hi There,
                                     </h2>
                                     <h2 className="perfect__place animate--perfect">
-                                        This is MentUP
+                                        Welcome to MentUP
                                     </h2>
                                     <h4 className="service__describe_page">
-                                        A safe place to share your mental health challenges without fear of insecurities, privacy & freedom infrigment but the aim to get counselling and supports anonymously.
+                                        We are your go to safe place for expression.
+                                    </h4>
+                                    <h4 className="service__describe_page">
+                                        An anonymous platform for mental health support, counselling and advocacy for students in tertiary institutions.
                                     </h4>
 
                                     <div className="left__side__button__container">
@@ -104,7 +107,7 @@ const HomeBody = () => {
                         <div className="second__layer__container">
                             <h4 className="second__layer__title">About MentUP</h4>
                             <h6 className="second__layer__title2">
-                                Voice Out The Expression is an initiative that advances discussions on mental health and advocates for safe spaces among the youth population in Nigeria. As a means to advance mental health in Nigeria, we developed MentUP.
+                                MentUP is a mental health product owned by Voice-Out The expression; an initiative that advances discussions on mental health and advocates for safe spaces for support, expression and deepening of knowledge in the mental health space among the youth population in Nigeria and beyond.
                             </h6>
                             <div className="second__layer__description">
                                 <img src={mobileSecondImage}
@@ -112,20 +115,21 @@ const HomeBody = () => {
                                     className="second__layer__desc__img"/>
                                 <div className="second__layer__desc">
                                     <h5 className="second__layer__desc__head">
-                                        Our product seeks to bridge the disparity in those outlined issues by providing the following solutions;
+                                        Our app, MentUP is providng the following solutions:
                                     </h5>
 
                                     <li className="second__layer__desc__inner">
                                         Accessibility to mental health services.
                                     </li>
                                     <li className="second__layer__desc__inner">
-                                        Affordability of mental health services
+                                        Affordability of mental health services.
+                                    </li>
+
+                                    <li className="second__layer__desc__inner">
+                                        Building an active community of mentally aware individuals.
                                     </li>
                                     <li className="second__layer__desc__inner">
-                                        Psycho-education for mental health advocacy and awareness
-                                    </li>
-                                    <li className="second__layer__desc__inner">
-                                        Building a mental health-conscious community both online and offline (safe space for expression)
+                                        Proving educative resources for you to make more informed decisions about mental health.
                                     </li>
                                 </div>
                             </div>
@@ -141,7 +145,7 @@ const HomeBody = () => {
                         <div className="__layer__container">
                             <h4 className="second__layer__title">Feedback</h4>
                             <h6 className="second__layer__title2">
-                                Got a feedback for us or interested to reach out to us?
+                                Would you like to partner with us? Send us a review on our app or perhaps invest in the vision?
                             </h6>
                             <div className="fourth__layer__description">
                                 <div className="fourth__layer__card__container">
