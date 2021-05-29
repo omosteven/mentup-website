@@ -2,11 +2,11 @@ import React from "react";
 
 // import {Ripple} from "react-preloaders";
 
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "../styles/homeBody.css";
 
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 // import {Chrono} from 'react-chrono';
 
@@ -32,7 +32,7 @@ const HomeBody = () => {
                 customLoading={false}/> */}
             <div>
                 <Helmet htmlAttributes>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"/>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
                 </Helmet>
 
                 <div data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine">
@@ -78,7 +78,7 @@ const HomeBody = () => {
                         </div>
                         <div className="first__layer__mobile">
                             <img src={mobileFirstImage}
-                                alt=""/>
+                                alt="" />
                         </div>
 
                         <div className="curve__shape__design">
@@ -112,7 +112,7 @@ const HomeBody = () => {
                             <div className="second__layer__description">
                                 <img src={mobileSecondImage}
                                     alt=""
-                                    className="second__layer__desc__img"/>
+                                    className="second__layer__desc__img" />
                                 <div className="second__layer__desc">
                                     <h5 className="second__layer__desc__head">
                                         Our app, MentUP is providng the following solutions:
@@ -129,7 +129,7 @@ const HomeBody = () => {
                                         Building an active community of mentally aware individuals.
                                     </li>
                                     <li className="second__layer__desc__inner">
-                                        Proving educative resources for you to make more informed decisions about mental health.
+                                        Providing educational resources for you to make more informed decisions about mental health.
                                     </li>
                                 </div>
                             </div>
@@ -153,15 +153,15 @@ const HomeBody = () => {
                                         {/* <div className="fourth__layer__right__card__image"></div> */}
                                         <img src={contacUsImage}
                                             className="fourth__layer__right__card__image"
-                                            alt="Contact Us"/>
+                                            alt="Contact Us" />
                                     </div>
                                     <div className="fourth__layer__right__card">
                                         <div className="contact__input__card">
                                             <div className="contact__input__box">
-                                                <input type="text" placeholder=" Subject" className="contact__input"/>
+                                                <input type="text" placeholder=" Subject" className="contact__input" />
                                             </div>
                                             <div className="contact__input__box">
-                                                <input type="email" placeholder=" Your Email" className="contact__input"/>
+                                                <input type="email" placeholder=" Your Email" className="contact__input" />
                                             </div>
                                             <div className="contact__input__box">
                                                 <textarea type="text" placeholder=" Message" className="contact__input contact--text--area"></textarea>
