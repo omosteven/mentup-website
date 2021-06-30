@@ -1,27 +1,92 @@
-import React from "react";
+import React from 'react';
 
-import "../styles/homeFooter.css";
+// import { Link } from 'react-router-dom';
 
-import {Helmet} from "react-helmet";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
-const HomeFooter = () => {
+import { Grid } from '@material-ui/core';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+
+import {
+    Footer, FooterBottom,
+    // FooterButton,
+    FooterIconBox, FooterIcons, FooterLogo, FooterLogoBox, FooterMiddle, FooterMiddleText, FooterMiddleFirst, FooterMiddleSecond, FooterMiddleThird,
+    //   FooterSmallText, FooterTop,
+    FooterContactText, FooterContactInput, FooterBottomText, FooterContact, FooterContactBtn
+} from '../styles/FooterStyle';
+import mentUPLogo from "../images/MentUPLogo.svg";
+
+const HomeFooter = (props) => {
+    // AOS.init();
+
     return (
         <>
-            <Helmet>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"/>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-            </Helmet>
-            <footer className="footer">
-                <div className="social__footer">
-                    <h6 className="subTitle">Subscribe to our newsletter.</h6>
-                    <input type="email" placeholder="Enter email" className="emailSub"/><button className="subBtn">Subscribe</button>
-                </div>
-                <div className="copy__right__cont">
-                    <p className="copy__footer">© 2021 MentUp.  All rights reserved</p>
-                </div>
-            </footer>
+            <Footer data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+
+
+                <FooterMiddle data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+
+                    <Grid container spacing={3}>
+                        <Grid item lg={4} md={4} xs={12} sm={12}>
+                            <FooterMiddleFirst>
+                                <FooterLogoBox>
+                                    <FooterLogo src={mentUPLogo} />
+                                </FooterLogoBox>
+
+                                <FooterIconBox>
+                                    <a href='https://linkedin.com' target='__blank'>
+                                        <FooterIcons>
+                                            <LinkedInIcon style={{ marginTop: '0.35em' }} />
+                                        </FooterIcons>
+                                    </a>
+                                    <a href='https://facebook.com' target='__blank'>
+                                        <FooterIcons>
+                                            <FacebookIcon style={{ marginTop: '0.35em' }} />
+                                        </FooterIcons>
+                                    </a>
+                                    <a href='https://twitter.com/' target='__blank'>
+                                        <FooterIcons>
+                                            <TwitterIcon style={{ marginTop: '0.35em' }} />
+                                        </FooterIcons>
+                                    </a>
+                                </FooterIconBox>
+                            </FooterMiddleFirst>
+                        </Grid>
+
+                        <Grid item lg={4} md={4} xs={12} sm={12}>
+                            <FooterMiddleSecond>
+                                <FooterMiddleText>Terms</FooterMiddleText>
+                                <FooterMiddleText>Privacy Policy</FooterMiddleText>
+                                <FooterMiddleText>FAQs</FooterMiddleText>
+                            </FooterMiddleSecond>
+                        </Grid>
+
+                        <Grid item lg={4} md={4} xs={12} sm={12}>
+                            <FooterMiddleThird>
+                                <FooterContactText>Don't miss out in your inbox!</FooterContactText>
+                                <FooterContact>
+                                    <FooterContactInput placeholder="Enter Your Email" />
+                                    <FooterContactBtn><ArrowForwardIosIcon /></FooterContactBtn>
+                                </FooterContact>
+
+                            </FooterMiddleThird>
+                        </Grid>
+                    </Grid>
+
+                </FooterMiddle>
+
+                <FooterBottom>
+                    <FooterBottomText>© 2021 MentupApp. All rights reserved</FooterBottomText>
+                </FooterBottom>
+            </Footer>
         </>
-    );
+    )
 };
 
 export default HomeFooter;
